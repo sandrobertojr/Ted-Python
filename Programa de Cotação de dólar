@@ -1,0 +1,7 @@
+#PROGRAMA COTAÇÃO – O usuário digita quanto está valendo o dólar e quanto em reais ele possui. 
+# O programa exibe quantos dólares valem os reais que o usuário informou. 
+
+print('O dólar está valendo 4.70 reais')
+dinheiro=float(input('Quantos reais você tem? R$'))
+dol=dinheiro/4.70
+print(f'R${dinheiro} convertido para dólares é ${dol:.2f}')
